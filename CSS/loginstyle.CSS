@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/concert.jpg");
+    background-position: center;
+}
+    
+.concert-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(241 , 208 , 215, 0.49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-container h1{
+    font-family: 'Lexend', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+.logo-container img{
+width: 21em;
+height: 10em;
+}
+.form-container {
+    min-height: 50vh;
+    font-family: 'Lexend', sans-serif;
+}
+.input-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8em;
+}
+.imput-container {
+    color: black;
+    font-size: 1.5em;
+}
+.login-btn{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 8px;
+
+}
+.bp-link {
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.lightstick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lightstick img{
+    width: 5em;
+    height: 5em;
+}
+@media screen and (min-widht:720px) and (orientation:landscape) {
+    
+}
